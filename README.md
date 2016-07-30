@@ -6,7 +6,7 @@
 sudo apt-get install git
 ```
 
-> Install bdutil
+> Install gcloud sdk
 
 ```sh
 # Update package source
