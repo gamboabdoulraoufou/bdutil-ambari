@@ -35,7 +35,7 @@ nano platforms/hdp/ambari.conf
 
 ```
 > Example
-![ambari.conf head](https://github.com/gamboabdoulraoufou/bdutil-ambari/blob/master/Screen Shot 2016-09-05 at 10.51.39 AM.png)
+![ambari.conf head](https://github.com/gamboabdoulraoufou/bdutil-ambari/blob/master/ambari.conf.png)
 
 
 
@@ -46,6 +46,11 @@ nano platforms/hdp/ambari.conf
 ./bdutil -f -e ambari deploy
 
 ```
+
+> Go to your google cloud console, you should see your cluster VM
+
+![ambari.conf head](https://github.com/gamboabdoulraoufou/bdutil-ambari/blob/master/console_gcp.png)
+
 
 > Delete cluster
 
