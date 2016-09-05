@@ -33,8 +33,10 @@ cd bdutil
 # Edit ambari configuration file and set your deployment configuration
 nano platforms/hdp/ambari.conf
 
-![ambari.conf head](https://github.com/gamboabdoulraoufou/bdutil-ambari/blob/master/Screen Shot 2016-09-05 at 10.51.39 AM.png)
 ```
+> Example
+![ambari.conf head](https://github.com/gamboabdoulraoufou/bdutil-ambari/blob/master/Screen Shot 2016-09-05 at 10.51.39 AM.png)
+
 
 > Deploy ambari cluster
 
