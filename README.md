@@ -30,7 +30,7 @@ cd bdutil
 > Create configuration file
 
 ```sh
-# Edit ambadi conf file and set you deployment configuration
+# Edit ambadi conf file and set your deployment configuration
 nano platforms/hdp/ambari.conf
 
 # Add execution right on ambari_env.sh file
