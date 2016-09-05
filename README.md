@@ -27,17 +27,12 @@ git clone https://github.com/GoogleCloudPlatform/bdutil
 cd bdutil
 ```
 
-> Create configuration file
+> Edit and modify the configuration file
 
 ```sh
-# Edit ambadi conf file and set your deployment configuration
+# Edit ambari configuration file and set your deployment configuration
 nano platforms/hdp/ambari.conf
 
-# Add execution right on ambari_env.sh file
-chmod 777 ambari_env.sh
-
-# Print ambari_env.sh file content
-nano ambari_env.sh
 ```
 
 > Deploy ambari cluster
