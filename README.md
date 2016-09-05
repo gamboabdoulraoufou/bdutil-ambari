@@ -33,6 +33,7 @@ cd bdutil
 # Edit ambari configuration file and set your deployment configuration
 nano platforms/hdp/ambari.conf
 
+![ambari.conf head](https://github.com/gamboabdoulraoufou/bdutil-ambari/blob/master/sqoop_architecture.PNG)
 ```
 
 > Deploy ambari cluster
