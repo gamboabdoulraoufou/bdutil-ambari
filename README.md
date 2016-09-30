@@ -45,7 +45,11 @@ nano platforms/hdp/ambari.conf
 # Deploy cluster
 ./bdutil -f -e ambari deploy
 
+# Synchronise unix user to use ambari web UI
+ambari-server setup-ldap
+ambari-server sync-ldap test
 ```
+https://github.com/abajwa-hw/security-workshops/blob/master/Setup-Ambari.md
 
 > Go to your google cloud console, you should see your cluster VM
 
